@@ -1,0 +1,13 @@
+<?php
+  declare(strict_types=1);
+
+  $elementId = 'checkbox-el-' . $name;
+?>
+<div class="checkbox-element form-element">
+  <?= $errors ?>
+  <div class="element-content">
+    <input type="checkbox" name="<?= $name ?>" <?= $checked ? 'checked="checked"' : '' ?>
+           id="<?= $elementId ?>">
+    <label for="<?= $elementId ?>"><?= $label ?></label>
+  </div>
+</div>

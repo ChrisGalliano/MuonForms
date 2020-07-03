@@ -1,0 +1,11 @@
+<?php
+  declare(strict_types=1);
+
+  use Muon\Elements\Input\Hidden\HiddenInputElement;
+  use Pion\Spl\Types\String\Validation\DummyStringValidator;
+
+?>
+<form action="<?= $form->action()->__toString() ?>" method="<?= $form->method()->type() ?>" class="pion-form">
+  <?= (new HiddenInputElement($form->name(), new DummyStringValidator()))->setValue('1')->render($engine) ?>
+  <?= $form->render($engine) ?>
+</form>

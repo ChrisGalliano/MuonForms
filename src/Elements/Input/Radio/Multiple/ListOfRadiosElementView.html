@@ -1,0 +1,14 @@
+<?php
+  declare(strict_types=1);
+
+  use Muon\Elements\Input\Radio\RadioElement;
+?>
+<div class="list-of-radios-element form-element">
+  <?= $errors ?>
+  <div class="element-content">
+    <?php foreach ($radios as $radio) { ?>
+      <?php assert($radio instanceof RadioElement) ?>
+      <?= $radio->render($engine) ?>
+    <?php } ?>
+  </div>
+</div>

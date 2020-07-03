@@ -1,0 +1,11 @@
+<?php
+  declare(strict_types=1);
+  $elementId = 'form-radio-el-' . $name . uniqid('', true);
+?>
+<div class="radio-element form-element">
+  <div class="element-content">
+    <input type="radio" name="<?= $name ?>" id="<?= $elementId ?>" <?= $checked ? 'checked' : '' ?>
+           value="<?= $option->value() ?>">
+    <label for="#<?= $elementId ?>"><?= $option->label() ?></label>
+  </div>
+</div>

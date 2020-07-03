@@ -1,0 +1,9 @@
+<?php declare(strict_types=1); ?>
+<div class="list-of-checkboxes-element form-element">
+  <?= $errors ?>
+  <div class="element-content">
+    <?php foreach ($checkboxes as $checkbox) { ?>
+      <?= $checkbox->render($engine) ?>
+    <?php } ?>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+<?php declare(strict_types=1); ?>
+<div class="select-element form-element">
+  <?= $errors ?>
+  <div class="element-content">
+    <select name="<?= $name ?>">
+      <?php foreach ($options->all() as $option) { ?>
+        <option value="<?= $option->value() ?>"
+          <?= $option->value() === $value ? 'selected' : '' ?>><?= $option->label() ?></option>
+      <?php } ?>
+    </select>
+  </div>
+</div>

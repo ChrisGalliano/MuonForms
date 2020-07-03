@@ -1,0 +1,15 @@
+<?php
+  declare(strict_types=1);
+
+  use Pion\Validation\Result\ValidationResult;
+
+  assert($validationResult instanceof ValidationResult);
+?>
+
+<?php if (!$validationResult->isValid()) { ?>
+  <div class="errors">
+    <?php foreach ($validationResult->errors() as $error) { ?>
+      <div class="error"><?= $error ?></div>
+    <?php } ?>
+  </div>
+<?php } ?>
