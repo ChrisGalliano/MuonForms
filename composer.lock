@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "997f31cb435044c75e0ccb399abc1ef3",
+    "content-hash": "b32bc233caf2901e44c8d36777677ebf",
     "packages": [
         {
             "name": "chrisgalliano/peony",
-            "version": "1.0.0",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ChrisGalliano/PeonyTemplating.git",
-                "reference": "b5d1735fdb02c8f67bc8a7ca7dafcfd53d328e46"
+                "reference": "0ab0cf8198844999a83ab8bbdfd48f58305a39b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ChrisGalliano/PeonyTemplating/zipball/b5d1735fdb02c8f67bc8a7ca7dafcfd53d328e46",
-                "reference": "b5d1735fdb02c8f67bc8a7ca7dafcfd53d328e46",
+                "url": "https://api.github.com/repos/ChrisGalliano/PeonyTemplating/zipball/0ab0cf8198844999a83ab8bbdfd48f58305a39b7",
+                "reference": "0ab0cf8198844999a83ab8bbdfd48f58305a39b7",
                 "shasum": ""
             },
             "require": {
@@ -44,7 +44,7 @@
                 }
             ],
             "description": "Peony is a lightweight PHP Templating Engine designed for the Pion Framework",
-            "time": "2020-07-01T22:37:30+00:00"
+            "time": "2020-07-04T00:35:06+00:00"
         },
         {
             "name": "chrisgalliano/pion",
