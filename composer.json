@@ -1,6 +1,6 @@
 {
   "name": "chrisgalliano/muon",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Muon is a lightweight forms engine designed for the Peony Templating & Pion Framework",
   "minimum-stability": "dev",
   "license": "MIT",
@@ -17,8 +17,8 @@
   },
   "require": {
     "php": "7.4.*",
-    "chrisgalliano/pion": "dev-master",
-    "chrisgalliano/peony": "3.0.0"
+    "chrisgalliano/pion": "2.0.*",
+    "chrisgalliano/peony": "3.0.*"
   },
   "require-dev": {
     "roave/security-advisories": "dev-master"
